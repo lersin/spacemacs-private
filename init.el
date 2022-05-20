@@ -105,6 +105,11 @@ This function should only modify configuration layer settings."
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-backend 'lsp-ccls
             c-c++-lsp-executable (file-truename "/usr/local/bin/ccls"))
+     (go :variables
+         go-backend 'lsp
+         gofmt-command "goimports"
+         go-tab-width 4)
+     yuanx
      zilongshanren
      (chinese :variables chinese-enable-youdao-dict t)
      )
