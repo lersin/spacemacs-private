@@ -96,8 +96,8 @@
             
             (setq lsp-ui-sideline-show-code-actions nil)
             (setq lsp-ui-sideline-show-diagnostics nil)
-            (setq lsp-ui-sideline-show-hover nil)
-            (setq lsp-ui-sideline-show-symbol nil))
+            (setq lsp-ui-sideline-show-hover nil))
+            ;; (setq lsp-ui-sideline-show-symbol nil))
         (progn
             
           (setq lsp-ui-sideline-show-code-actions nil)
